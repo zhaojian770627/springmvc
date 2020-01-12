@@ -11,4 +11,9 @@ public class OrderController {
 	public String buy() {
 		return "buy success.....";
 	}
+
+	@RequestMapping("/ok")
+	public String ok() {
+		return "ok";
+	}
 }
